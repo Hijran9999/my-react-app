@@ -1,10 +1,10 @@
 import React from "react";
 
-function IngredientsList(props) {
+function IngredientsList({ items }) {
   return React.createElement(
     "ul",
     { className: "ingredients" },
-    props.items.map((ingredient, i) =>
+    items.map((ingredient, i) =>
       React.createElement("li", { key: i }, ingredient)
     )
   );

@@ -12,9 +12,7 @@ const items = [
   "2 eggs",
   "2.5 cups all purpose flour",
   "1 teaspoon baking powder",
-  "0.5 teaspoon salt",
-  "1.5 cups rolled oats",
-  "1 cup chocolate chips",
+  "0.5 teaspoon salt"
 ];
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -24,5 +22,5 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to measure performance, you can uncomment reportWebVitals
+// If needed, you can use reportWebVitals for performance metrics
 // reportWebVitals(console.log);
