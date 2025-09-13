@@ -12,7 +12,9 @@ const items = [
   "2 eggs",
   "2.5 cups all purpose flour",
   "1 teaspoon baking powder",
-  "0.5 teaspoon salt"
+  "0.5 teaspoon salt",
+  "1.5 cups rolled oats",
+  "1 cup chocolate chips",
 ];
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
